@@ -12,7 +12,7 @@ import javax.persistence.ManyToOne;
 public class Serie {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long idSerie;
+	private Long idSerie;//id
 	private String nomSerie;
 	private Double prixSerie;
 	private Date dateCreation;
